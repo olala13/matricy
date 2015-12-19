@@ -3,6 +3,7 @@
 #include <pthread.h>
 #include <stdlib.h>
 
+
 int multi = 0;
 
 void *multiscal(int* c)
@@ -11,6 +12,7 @@ void *multiscal(int* c)
     return 0;
 }
 
+// Comment
 int main(void)
 {
     int i;
